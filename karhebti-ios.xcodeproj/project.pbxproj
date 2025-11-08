@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F7BCC5C2EBDCFC700CBD6FC /* karhebti_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC5B2EBDCFC700CBD6FC /* karhebti_iosApp.swift */; };
+		8F7BCC5E2EBDCFC700CBD6FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC5D2EBDCFC700CBD6FC /* ContentView.swift */; };
+		8F7BCC602EBDCFC900CBD6FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7BCC5F2EBDCFC900CBD6FC /* Assets.xcassets */; };
+		8F7BCC632EBDCFC900CBD6FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7BCC622EBDCFC900CBD6FC /* Preview Assets.xcassets */; };
+		8F7BCC772EBDD7A500CBD6FC /* SETUP_CHECKLIST.md in Resources */ = {isa = PBXBuildFile; fileRef = 8F7BCC6E2EBDD7A400CBD6FC /* SETUP_CHECKLIST.md */; };
+		8F7BCC7C2EBDD7A500CBD6FC /* QUICKSTART.md in Resources */ = {isa = PBXBuildFile; fileRef = 8F7BCC732EBDD7A500CBD6FC /* QUICKSTART.md */; };
+		8F7BCC7E2EBDD7A500CBD6FC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8F7BCC752EBDD7A500CBD6FC /* README.md */; };
+		8F7BCC7F2EBDD7A500CBD6FC /* PROJECT_STRUCTURE.md in Resources */ = {isa = PBXBuildFile; fileRef = 8F7BCC762EBDD7A500CBD6FC /* PROJECT_STRUCTURE.md */; };
+		8F7BCCA52EBDD90100CBD6FC /* GarageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC812EBDD90000CBD6FC /* GarageViewModel.swift */; };
+		8F7BCCA62EBDD90100CBD6FC /* VehicleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC822EBDD90000CBD6FC /* VehicleViewModel.swift */; };
+		8F7BCCA72EBDD90100CBD6FC /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC832EBDD90000CBD6FC /* AuthViewModel.swift */; };
+		8F7BCCA82EBDD90100CBD6FC /* DocumentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC842EBDD90000CBD6FC /* DocumentViewModel.swift */; };
+		8F7BCCA92EBDD90100CBD6FC /* MaintenanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC852EBDD90000CBD6FC /* MaintenanceViewModel.swift */; };
+		8F7BCCAA2EBDD90100CBD6FC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC872EBDD90000CBD6FC /* Extensions.swift */; };
+		8F7BCCAB2EBDD90100CBD6FC /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC892EBDD90000CBD6FC /* APIClient.swift */; };
+		8F7BCCAC2EBDD90100CBD6FC /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC8A2EBDD90000CBD6FC /* TokenManager.swift */; };
+		8F7BCCAD2EBDD90100CBD6FC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC8D2EBDD90000CBD6FC /* HomeView.swift */; };
+		8F7BCCAE2EBDD90100CBD6FC /* CommonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC8F2EBDD90000CBD6FC /* CommonViews.swift */; };
+		8F7BCCAF2EBDD90100CBD6FC /* GaragesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC912EBDD90000CBD6FC /* GaragesListView.swift */; };
+		8F7BCCB02EBDD90100CBD6FC /* GarageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC922EBDD90000CBD6FC /* GarageDetailView.swift */; };
+		8F7BCCB12EBDD90100CBD6FC /* AddGarageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC932EBDD90000CBD6FC /* AddGarageView.swift */; };
+		8F7BCCB22EBDD90100CBD6FC /* VehiclesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC952EBDD90000CBD6FC /* VehiclesListView.swift */; };
+		8F7BCCB32EBDD90100CBD6FC /* EditVehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC962EBDD90000CBD6FC /* EditVehicleView.swift */; };
+		8F7BCCB42EBDD90100CBD6FC /* AddVehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC972EBDD90000CBD6FC /* AddVehicleView.swift */; };
+		8F7BCCB52EBDD90100CBD6FC /* VehicleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC982EBDD90000CBD6FC /* VehicleDetailView.swift */; };
+		8F7BCCB62EBDD90100CBD6FC /* AddMaintenanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC9A2EBDD90000CBD6FC /* AddMaintenanceView.swift */; };
+		8F7BCCB72EBDD90100CBD6FC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC9C2EBDD90000CBD6FC /* LoginView.swift */; };
+		8F7BCCB82EBDD90100CBD6FC /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC9D2EBDD90000CBD6FC /* ForgotPasswordView.swift */; };
+		8F7BCCB92EBDD90100CBD6FC /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCC9E2EBDD90000CBD6FC /* SignUpView.swift */; };
+		8F7BCCBA2EBDD90100CBD6FC /* GarageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCCA02EBDD90100CBD6FC /* GarageModels.swift */; };
+		8F7BCCBB2EBDD90100CBD6FC /* MaintenanceModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCCA12EBDD90100CBD6FC /* MaintenanceModels.swift */; };
+		8F7BCCBC2EBDD90100CBD6FC /* AuthModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCCA22EBDD90100CBD6FC /* AuthModels.swift */; };
+		8F7BCCBD2EBDD90100CBD6FC /* DocumentModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCCA32EBDD90100CBD6FC /* DocumentModels.swift */; };
+		8F7BCCBE2EBDD90100CBD6FC /* VehicleModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BCCA42EBDD90100CBD6FC /* VehicleModels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F7BCC582EBDCFC700CBD6FC /* karhebti-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "karhebti-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7BCC5B2EBDCFC700CBD6FC /* karhebti_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = karhebti_iosApp.swift; sourceTree = "<group>"; };
+		8F7BCC5D2EBDCFC700CBD6FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8F7BCC5F2EBDCFC900CBD6FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F7BCC622EBDCFC900CBD6FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8F7BCC6E2EBDD7A400CBD6FC /* SETUP_CHECKLIST.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = SETUP_CHECKLIST.md; sourceTree = SOURCE_ROOT; };
+		8F7BCC732EBDD7A500CBD6FC /* QUICKSTART.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = QUICKSTART.md; sourceTree = SOURCE_ROOT; };
+		8F7BCC752EBDD7A500CBD6FC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		8F7BCC762EBDD7A500CBD6FC /* PROJECT_STRUCTURE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = PROJECT_STRUCTURE.md; sourceTree = SOURCE_ROOT; };
+		8F7BCC812EBDD90000CBD6FC /* GarageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageViewModel.swift; sourceTree = "<group>"; };
+		8F7BCC822EBDD90000CBD6FC /* VehicleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleViewModel.swift; sourceTree = "<group>"; };
+		8F7BCC832EBDD90000CBD6FC /* AuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		8F7BCC842EBDD90000CBD6FC /* DocumentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentViewModel.swift; sourceTree = "<group>"; };
+		8F7BCC852EBDD90000CBD6FC /* MaintenanceViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaintenanceViewModel.swift; sourceTree = "<group>"; };
+		8F7BCC872EBDD90000CBD6FC /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8F7BCC892EBDD90000CBD6FC /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		8F7BCC8A2EBDD90000CBD6FC /* TokenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
+		8F7BCC8D2EBDD90000CBD6FC /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8F7BCC8F2EBDD90000CBD6FC /* CommonViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonViews.swift; sourceTree = "<group>"; };
+		8F7BCC912EBDD90000CBD6FC /* GaragesListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaragesListView.swift; sourceTree = "<group>"; };
+		8F7BCC922EBDD90000CBD6FC /* GarageDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageDetailView.swift; sourceTree = "<group>"; };
+		8F7BCC932EBDD90000CBD6FC /* AddGarageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGarageView.swift; sourceTree = "<group>"; };
+		8F7BCC952EBDD90000CBD6FC /* VehiclesListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehiclesListView.swift; sourceTree = "<group>"; };
+		8F7BCC962EBDD90000CBD6FC /* EditVehicleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditVehicleView.swift; sourceTree = "<group>"; };
+		8F7BCC972EBDD90000CBD6FC /* AddVehicleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddVehicleView.swift; sourceTree = "<group>"; };
+		8F7BCC982EBDD90000CBD6FC /* VehicleDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleDetailView.swift; sourceTree = "<group>"; };
+		8F7BCC9A2EBDD90000CBD6FC /* AddMaintenanceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMaintenanceView.swift; sourceTree = "<group>"; };
+		8F7BCC9C2EBDD90000CBD6FC /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8F7BCC9D2EBDD90000CBD6FC /* ForgotPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		8F7BCC9E2EBDD90000CBD6FC /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		8F7BCCA02EBDD90100CBD6FC /* GarageModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageModels.swift; sourceTree = "<group>"; };
+		8F7BCCA12EBDD90100CBD6FC /* MaintenanceModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaintenanceModels.swift; sourceTree = "<group>"; };
+		8F7BCCA22EBDD90100CBD6FC /* AuthModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthModels.swift; sourceTree = "<group>"; };
+		8F7BCCA32EBDD90100CBD6FC /* DocumentModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentModels.swift; sourceTree = "<group>"; };
+		8F7BCCA42EBDD90100CBD6FC /* VehicleModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleModels.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F7BCC552EBDCFC700CBD6FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F7BCC4F2EBDCFC700CBD6FC = {
+			isa = PBXGroup;
+			children = (
+				8F7BCC5A2EBDCFC700CBD6FC /* karhebti-ios */,
+				8F7BCC592EBDCFC700CBD6FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F7BCC592EBDCFC700CBD6FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F7BCC582EBDCFC700CBD6FC /* karhebti-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F7BCC5A2EBDCFC700CBD6FC /* karhebti-ios */ = {
+			isa = PBXGroup;
+			children = (
+				8F7BCC9F2EBDD90000CBD6FC /* Models */,
+				8F7BCC882EBDD90000CBD6FC /* Network */,
+				8F7BCC862EBDD90000CBD6FC /* Utilities */,
+				8F7BCC802EBDD90000CBD6FC /* ViewModels */,
+				8F7BCC8B2EBDD90000CBD6FC /* Views */,
+				8F7BCC762EBDD7A500CBD6FC /* PROJECT_STRUCTURE.md */,
+				8F7BCC732EBDD7A500CBD6FC /* QUICKSTART.md */,
+				8F7BCC752EBDD7A500CBD6FC /* README.md */,
+				8F7BCC6E2EBDD7A400CBD6FC /* SETUP_CHECKLIST.md */,
+				8F7BCC5B2EBDCFC700CBD6FC /* karhebti_iosApp.swift */,
+				8F7BCC5D2EBDCFC700CBD6FC /* ContentView.swift */,
+				8F7BCC5F2EBDCFC900CBD6FC /* Assets.xcassets */,
+				8F7BCC612EBDCFC900CBD6FC /* Preview Content */,
+			);
+			path = "karhebti-ios";
+			sourceTree = "<group>";
+		};
+		8F7BCC612EBDCFC900CBD6FC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8F7BCC622EBDCFC900CBD6FC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8F7BCC802EBDD90000CBD6FC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8F7BCC812EBDD90000CBD6FC /* GarageViewModel.swift */,
+				8F7BCC822EBDD90000CBD6FC /* VehicleViewModel.swift */,
+				8F7BCC832EBDD90000CBD6FC /* AuthViewModel.swift */,
+				8F7BCC842EBDD90000CBD6FC /* DocumentViewModel.swift */,
+				8F7BCC852EBDD90000CBD6FC /* MaintenanceViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8F7BCC862EBDD90000CBD6FC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8F7BCC872EBDD90000CBD6FC /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8F7BCC882EBDD90000CBD6FC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8F7BCC892EBDD90000CBD6FC /* APIClient.swift */,
+				8F7BCC8A2EBDD90000CBD6FC /* TokenManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8F7BCC8B2EBDD90000CBD6FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F7BCC8C2EBDD90000CBD6FC /* Home */,
+				8F7BCC8E2EBDD90000CBD6FC /* Common */,
+				8F7BCC902EBDD90000CBD6FC /* Garages */,
+				8F7BCC942EBDD90000CBD6FC /* Vehicles */,
+				8F7BCC992EBDD90000CBD6FC /* Maintenance */,
+				8F7BCC9B2EBDD90000CBD6FC /* Authentication */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8F7BCC8C2EBDD90000CBD6FC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8F7BCC8D2EBDD90000CBD6FC /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8F7BCC8E2EBDD90000CBD6FC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8F7BCC8F2EBDD90000CBD6FC /* CommonViews.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8F7BCC902EBDD90000CBD6FC /* Garages */ = {
+			isa = PBXGroup;
+			children = (
+				8F7BCC912EBDD90000CBD6FC /* GaragesListView.swift */,
+				8F7BCC922EBDD90000CBD6FC /* GarageDetailView.swift */,
+				8F7BCC932EBDD90000CBD6FC /* AddGarageView.swift */,
+			);
+			path = Garages;
+			sourceTree = "<group>";
+		};
+		8F7BCC942EBDD90000CBD6FC /* Vehicles */ = {
+			isa = PBXGroup;
+			children = (
+				8F7BCC952EBDD90000CBD6FC /* VehiclesListView.swift */,
+				8F7BCC962EBDD90000CBD6FC /* EditVehicleView.swift */,
+				8F7BCC972EBDD90000CBD6FC /* AddVehicleView.swift */,
+				8F7BCC982EBDD90000CBD6FC /* VehicleDetailView.swift */,
+			);
+			path = Vehicles;
+			sourceTree = "<group>";
+		};
+		8F7BCC992EBDD90000CBD6FC /* Maintenance */ = {
+			isa = PBXGroup;
+			children = (
+				8F7BCC9A2EBDD90000CBD6FC /* AddMaintenanceView.swift */,
+			);
+			path = Maintenance;
+			sourceTree = "<group>";
+		};
+		8F7BCC9B2EBDD90000CBD6FC /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				8F7BCC9C2EBDD90000CBD6FC /* LoginView.swift */,
+				8F7BCC9D2EBDD90000CBD6FC /* ForgotPasswordView.swift */,
+				8F7BCC9E2EBDD90000CBD6FC /* SignUpView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		8F7BCC9F2EBDD90000CBD6FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F7BCCA02EBDD90100CBD6FC /* GarageModels.swift */,
+				8F7BCCA12EBDD90100CBD6FC /* MaintenanceModels.swift */,
+				8F7BCCA22EBDD90100CBD6FC /* AuthModels.swift */,
+				8F7BCCA32EBDD90100CBD6FC /* DocumentModels.swift */,
+				8F7BCCA42EBDD90100CBD6FC /* VehicleModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F7BCC572EBDCFC700CBD6FC /* karhebti-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F7BCC6B2EBDCFC900CBD6FC /* Build configuration list for PBXNativeTarget "karhebti-ios" */;
+			buildPhases = (
+				8F7BCC542EBDCFC700CBD6FC /* Sources */,
+				8F7BCC552EBDCFC700CBD6FC /* Frameworks */,
+				8F7BCC562EBDCFC700CBD6FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "karhebti-ios";
+			productName = "karhebti-ios";
+			productReference = 8F7BCC582EBDCFC700CBD6FC /* karhebti-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F7BCC502EBDCFC700CBD6FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					8F7BCC572EBDCFC700CBD6FC = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 8F7BCC532EBDCFC700CBD6FC /* Build configuration list for PBXProject "karhebti-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F7BCC4F2EBDCFC700CBD6FC;
+			productRefGroup = 8F7BCC592EBDCFC700CBD6FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F7BCC572EBDCFC700CBD6FC /* karhebti-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F7BCC562EBDCFC700CBD6FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7BCC7E2EBDD7A500CBD6FC /* README.md in Resources */,
+				8F7BCC7F2EBDD7A500CBD6FC /* PROJECT_STRUCTURE.md in Resources */,
+				8F7BCC632EBDCFC900CBD6FC /* Preview Assets.xcassets in Resources */,
+				8F7BCC602EBDCFC900CBD6FC /* Assets.xcassets in Resources */,
+				8F7BCC772EBDD7A500CBD6FC /* SETUP_CHECKLIST.md in Resources */,
+				8F7BCC7C2EBDD7A500CBD6FC /* QUICKSTART.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F7BCC542EBDCFC700CBD6FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7BCCA72EBDD90100CBD6FC /* AuthViewModel.swift in Sources */,
+				8F7BCCBC2EBDD90100CBD6FC /* AuthModels.swift in Sources */,
+				8F7BCCA52EBDD90100CBD6FC /* GarageViewModel.swift in Sources */,
+				8F7BCCB02EBDD90100CBD6FC /* GarageDetailView.swift in Sources */,
+				8F7BCCA62EBDD90100CBD6FC /* VehicleViewModel.swift in Sources */,
+				8F7BCCAA2EBDD90100CBD6FC /* Extensions.swift in Sources */,
+				8F7BCCB92EBDD90100CBD6FC /* SignUpView.swift in Sources */,
+				8F7BCC5E2EBDCFC700CBD6FC /* ContentView.swift in Sources */,
+				8F7BCCB52EBDD90100CBD6FC /* VehicleDetailView.swift in Sources */,
+				8F7BCCAD2EBDD90100CBD6FC /* HomeView.swift in Sources */,
+				8F7BCCAF2EBDD90100CBD6FC /* GaragesListView.swift in Sources */,
+				8F7BCC5C2EBDCFC700CBD6FC /* karhebti_iosApp.swift in Sources */,
+				8F7BCCB62EBDD90100CBD6FC /* AddMaintenanceView.swift in Sources */,
+				8F7BCCAE2EBDD90100CBD6FC /* CommonViews.swift in Sources */,
+				8F7BCCB82EBDD90100CBD6FC /* ForgotPasswordView.swift in Sources */,
+				8F7BCCBB2EBDD90100CBD6FC /* MaintenanceModels.swift in Sources */,
+				8F7BCCA92EBDD90100CBD6FC /* MaintenanceViewModel.swift in Sources */,
+				8F7BCCBD2EBDD90100CBD6FC /* DocumentModels.swift in Sources */,
+				8F7BCCB32EBDD90100CBD6FC /* EditVehicleView.swift in Sources */,
+				8F7BCCBA2EBDD90100CBD6FC /* GarageModels.swift in Sources */,
+				8F7BCCB22EBDD90100CBD6FC /* VehiclesListView.swift in Sources */,
+				8F7BCCB72EBDD90100CBD6FC /* LoginView.swift in Sources */,
+				8F7BCCAC2EBDD90100CBD6FC /* TokenManager.swift in Sources */,
+				8F7BCCA82EBDD90100CBD6FC /* DocumentViewModel.swift in Sources */,
+				8F7BCCAB2EBDD90100CBD6FC /* APIClient.swift in Sources */,
+				8F7BCCB12EBDD90100CBD6FC /* AddGarageView.swift in Sources */,
+				8F7BCCBE2EBDD90100CBD6FC /* VehicleModels.swift in Sources */,
+				8F7BCCB42EBDD90100CBD6FC /* AddVehicleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8F7BCC692EBDCFC900CBD6FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F7BCC6A2EBDCFC900CBD6FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F7BCC6C2EBDCFC900CBD6FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"karhebti-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aziz.karhebti-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F7BCC6D2EBDCFC900CBD6FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"karhebti-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aziz.karhebti-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F7BCC532EBDCFC700CBD6FC /* Build configuration list for PBXProject "karhebti-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7BCC692EBDCFC900CBD6FC /* Debug */,
+				8F7BCC6A2EBDCFC900CBD6FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F7BCC6B2EBDCFC900CBD6FC /* Build configuration list for PBXNativeTarget "karhebti-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7BCC6C2EBDCFC900CBD6FC /* Debug */,
+				8F7BCC6D2EBDCFC900CBD6FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F7BCC502EBDCFC700CBD6FC /* Project object */;
+}
